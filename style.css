@@ -1,0 +1,38 @@
+/*
+Theme Name: ColorMag Pro Child (Custom)
+Theme URI: https://themegrill.com/themes/colormag/
+Template: colormag-pro
+Author: ThemeGrill
+Author URI: https://themegrill.com/wordpress-themes/
+Description: ColorMag Pro is the pro version of ColorMag free theme.
+Version: 1.0.0
+Updated: 2018-01-22
+*/
+
+/* Hide 'read more' link */
+.more-link { display: none; }
+
+/* Hide author info */
+.below-entry-meta .byline { display:none; }
+
+/* Hide comment count */
+.below-entry-meta .comments { display:none; }
+
+/* Hide post view count */
+.below-entry-meta .post-views { display: none; }
+
+/* Slide fades */
+.widget_featured_slider .slide-content {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 1));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 1));
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 1));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) , rgba(0, 0, 0, 1));
+}
+
+/* Article fades */
+.widget_highlighted_posts .article-content {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 1));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 1));
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 1));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) , rgba(0, 0, 0, 1));
+}
